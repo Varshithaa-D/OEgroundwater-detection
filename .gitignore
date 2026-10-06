@@ -1,0 +1,37 @@
+# Python environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Massive Spatial Datasets and Models (Ignored due to GitHub 100MB limit)
+*.zarr/
+*.parquet
+*.npz
+*.csv
+*.pt
+*.pth
+*.gpkg
+*.pkl
+*.png
+
+# Massive raw data folders (64 GB)
+Taluk/
+HydroSentry_Full_State/
+manual_dataset&ground_truth/
+
+# Ignore temporary map outputs
+Interactive_Map_*.html
+groundwater_stress_map.html
+
+# Ignore large runs cache
+runs/
+qgis_sample_patches/
+
+# OS generated files
+.DS_Store
+Thumbs.db
