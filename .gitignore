@@ -35,3 +35,6 @@ qgis_sample_patches/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Legacy archive
+archive/
